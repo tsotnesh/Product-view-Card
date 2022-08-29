@@ -1,0 +1,105 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main-section {
+    height:600px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.main-block {
+    margin: 0 auto;
+    max-width:550px;
+    width:100%
+    background-color: hsl(0, 0%, 100%);
+    display:flex;
+    justify-content: space-between;
+}
+
+.img {
+    width: 300px;
+    height:400px;
+}
+
+.child-block {
+    margin-top:20px;
+    margin-left:20px;
+    display:flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size:14px;
+    color:hsl(228, 12%, 48%);
+    font-family: 'Fraunces', serif;
+
+}
+
+h1 {
+    font-size: 32px;
+    margin-top:15px;
+    font-family: 'Fraunces', serif;
+}
+
+.text {
+    font-size:15px;
+    margin-top:25px;
+    width:200px;
+    color:hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price-block {
+    margin-top:40px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:180px;
+}
+
+.price1 {
+    font-size:32px;
+    color:hsl(158, 36%, 37%);
+}
+
+.price2 {
+    text-decoration: line-through;
+    color:hsl(228, 12%, 48%);
+}
+
+.add-button {
+    margin-top:30px;
+    width:200px;
+    height:50px;
+    background-color:hsl(158, 36%, 37%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:15px;
+    border:none;
+    cursor:pointer;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.block {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:108px;
+
+}
+
+.text-buy {
+    font-size:18px;
+    color:hsl(0, 0%, 100%);
+}
+.fa-cart-plus {
+    color:white;
+}
+
+/* hover effects */
+.add-button:hover {
+    background-color: hsl(212, 21%, 14%);
+}
